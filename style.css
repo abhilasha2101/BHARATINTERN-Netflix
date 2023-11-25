@@ -1,0 +1,158 @@
+
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Martel+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif,;
+}
+.asdf{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/bg.jpg);
+    min-height: 710px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+.head{
+    padding: 5px 10px;
+    height: 63px;
+}
+.signin{
+    background: #e50914;
+    border-radius: 3px;
+    width: 83px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border: none;
+}
+.trans{
+    width: 100px;
+    height: 30px;  
+    border-radius: 5px;  
+    background: transparent;
+    border: solid 2px rgb(48, 47, 47);
+    color: white;
+    font-weight: 200;
+}
+.bold{
+    margin: 190px 80px 0;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+    font-family: sans-serif;
+    word-spacing: -5px;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+.para{
+    padding: 12px;
+    font-size: 25px;
+    text-align: center;
+}
+.gs{
+    position: relative;
+    left: 400px;
+    font-weight: 300;
+    font-size: 18px;
+    height: 53px;
+    text-align: center;
+    align-self: center;
+    width: 200px;
+    padding: 5px;
+}
+#email{
+    font-size: 18px;
+    width: 350px;
+    text-align: left;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background:rgb(29, 28, 28);
+    border: none;
+}
+.s6{
+    margin: 0 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    justify-content: center;
+    text-align: left;
+}
+.faq{
+    position: relative;
+    left: 145px;
+    background: #2d2d2d;
+    padding: 0 20px 20px;
+    overflow: hidden;
+    font-size: 25px;
+}
+.faq:hover{
+    background: #383838;
+}
+.faq input{
+    appearance: none;
+}
+.faq label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.faq label::after{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 3em;
+}
+.faq .content{
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.faq input:checked~.content{
+    max-height: 100vh ;
+}
+.r-watch{
+    padding-top: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.row{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-col ul li{
+    list-style: none;
+    padding: 10px 35px;
+}
+a{
+    color: #adb0b3;
+}
+
+
